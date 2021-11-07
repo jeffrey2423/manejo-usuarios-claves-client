@@ -1,0 +1,9 @@
+.tabs-index{
+    max-width: 100vh;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    place-content: center;
+}
+
