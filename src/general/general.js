@@ -94,10 +94,10 @@ export const encryptSha256 = async (message) => {
     return hashHex;
 }
 
-export const changeCursorStyle = (elementId = '', style) =>{
+export const changeCursorStyle = (elementId = '', style) => {
     if (style === "pointer") {
         document.getElementById('root').style.cursor = "default";
-    }else{
+    } else {
         document.getElementById('root').style.cursor = style;
     }
     document.getElementById(elementId).style.cursor = style;
